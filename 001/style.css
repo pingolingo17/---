@@ -1,0 +1,93 @@
+body {
+  background-color: #0b0b0b;
+  color: #e0e0e0;
+  font-family: "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center; 
+  align-items: flex-start;
+  padding-top: 60px
+}
+.carta {
+  width: 600px;
+  padding: 40px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+}
+
+.nome {
+  text-align: left;
+}
+
+.data {
+  font-size: 14px;
+}
+
+.corpo p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+}
+
+.topico {
+  padding-left: 30px;
+  border-left: 2px solid #999;
+  margin-bottom: 25px;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+}
+
+input {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: 1px solid #444;
+  margin-top: 15px;
+  width:80px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+  background: #111;
+  color: white;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #222;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #222;
+}
+
+.espacamento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>0016</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="carta">
+
+    <div class="cabecalho">
+        <span class="nome"><input type="text" id="1967"> <input type="text" id="29"> de <input type="text" id="setembro"> </span>
+        <span class="data"><input type="text" id="22:18"></span>
+    </div>
+
+    <div class="cabecalho">
+        <span class="nome"><input type="text" id="33">º Relatório do <input type="text" id="bonfire"> </span>
+    </div>
+
+    <div class="corpo">
+      <p>
+        Isso devia ser um relatório, mas acho que vai se tornar um desabafo. Quando <input type="text" id="crianca"> nunca imaginei que iria chegar onde cheguei, trabalhar no <input type="text" id="naicho">, montar esse laboratório, construir isso, e sou muito grata a tudo isso, do mesmo modo nunca pensei que iria ter um fim tão ruim, não fiz nada para merecer isso. Como <input type="text" id="ultimo"> ato vou completar o teste do projeto em que eu e Seru passamos boa parte da vida -aproximadamente <input type="text" id="5"> anos- trabalhando.
+      </p>
+
+    <p>
+        Acabo de dar um novo nome a criatura: <input type="text" id="centauro">, acho que combina devido a toda aquela coisa ser toda custurada e tals, mas não consegui encaixar a <input type="text" id="perola"> nesse nome então se ele me deixar viver mais alguns segundos talvez eu pense num nome melhor.
+        </p>
+
+      <p >
+        Se você me encontrou ou encontrou esses arquivos, que provavelmente vou usar algum método de <input type="text" id="criptografia"> para esconder os dados, significa que todo esse trabalho valeu a pena, e se isso for verdade e existir alguma forma de me tirar desse pequeno corpinho tá no quarto do Seru agora.
+      </p>
+
+      <p>
+        Acho que é <input type="text" id="tudo"> que tenho a dizer.
+        </p>
+
+    <div class="cabecalho">
+        <span class="nome"><input type="text" id="camila ayumi"> </span>
+    </div>
+
+    <button onclick="enigma16()">Verificar</button>
+
+    <p id="mensagem"></p>
+
+  </div>
+
+  <script>
+    function enigma16() {
+        let ano = document.getElementById("1967").value    .trim()
+    .toLowerCase();
+  ;
+        let dia = document.getElementById("29").value    .trim()
+    .toLowerCase();
+  ;
+        let setembro = document.getElementById("setembro").value    .trim()
+    .toLowerCase();
+  ;
+        let hora = document.getElementById("22:18").value    .trim()
+    .toLowerCase();
+  ;
+        let numero1 = document.getElementById("33").value    .trim()
+    .toLowerCase();
+  ;
+        let bonfire = document.getElementById("bonfire").value    .trim()
+    .toLowerCase();
+  ;
+        let crianca = document.getElementById("crianca").value    .trim()
+    .toLowerCase();
+  ;
+        let naicho = document.getElementById("naicho").value    .trim()
+    .toLowerCase();
+  ;
+        let ultimo = document.getElementById("ultimo").value    .trim()
+    .toLowerCase();
+  ;
+        let numero = document.getElementById("5").value    .trim()
+    .toLowerCase();
+  ;
+        let centauro = document.getElementById("centauro").value    .trim()
+    .toLowerCase();
+  ;
+        let perola = document.getElementById("perola").value    .trim()
+    .toLowerCase();
+  ;
+        let criptografia = document.getElementById("criptografia").value    .trim()
+    .toLowerCase();
+  ;
+        let tudo = document.getElementById("tudo").value    .trim()
+    .toLowerCase();
+  ;
+        let nome = document.getElementById("camila ayumi").value    .trim()
+    .toLowerCase();
+  ;
+
+    if(
+ano === "1967" &&
+dia === "29" &&
+setembro === "setembro" &&
+hora === "22:18" &&
+numero1 ==="33" &&
+bonfire === "bonfire" &&
+crianca === "criança" || crianca === "criança" &&
+naicho === "naicho" &&
+ultimo === "último" || ultimo === "ultimo" &&
+numero === "5" &&
+centauro === "centauro" || centauro === "centaurus" &&
+perola === "pérola" || perola === "perola" &&
+criptografia === "criptografia" &&
+tudo === "tudo" &&
+nome === "camila ayumi"
+){
+window.location.href = "rec16.html"
+}   
+    else{
+mensagem.innerText = "Se você chegou até aqui, consegue responder todos corretamente."
+}
+    }
+  </script>
+
+</body>
+</html>
