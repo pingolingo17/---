@@ -149,12 +149,10 @@ function enigma9() {
 function enigma10() {
 
   const resposta0010 = document.getElementById("resposta0010").value
-    .trim()
-    .toLowerCase();
   ;
 
 
-  if (resposta0010 === "criptografia") {
+  if (resposta0010 === "5") {
     window.location.href = "rec10.html"
   } else {
     mensagem.innerText = "Resposta incorreta.";
