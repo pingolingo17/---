@@ -91,3 +91,7 @@ button:hover {
   align-items: center;
   margin-bottom: 40px;
 }
+
+.escondido {
+  color: #0b0b0b;
+}
