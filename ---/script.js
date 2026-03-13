@@ -223,7 +223,7 @@ function enigma14() {
   ;
 
 
-  if (resposta0014 === "tudo") {
+  if (resposta0014 === "corpinho") {
     window.location.href = "rec14.html"
   } else {
     mensagem.innerText = "Resposta incorreta.";
